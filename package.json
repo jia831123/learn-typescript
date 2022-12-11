@@ -1,0 +1,14 @@
+{
+  "name": "vue-press",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "william <william.pan@accuhit.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.58"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
