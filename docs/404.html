@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.58">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title> | 你好， VuePress ！</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/learn-typescript/assets/style-4f5f094b.css" as="style"><link rel="stylesheet" href="/learn-typescript/assets/style-4f5f094b.css">
+    <link rel="modulepreload" href="/learn-typescript/assets/app-62a835c4.js"><link rel="modulepreload" href="/learn-typescript/assets/framework-7e1a102e.js"><link rel="modulepreload" href="/learn-typescript/assets/404.html-f9e8d259.js"><link rel="modulepreload" href="/learn-typescript/assets/404.html-f9875e7b.js"><link rel="prefetch" href="/learn-typescript/assets/index.html-7f98917c.js" as="script"><link rel="prefetch" href="/learn-typescript/assets/index.html-e1d47e8e.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>Looks like we&#39;ve got some broken links.</blockquote><a href="/learn-typescript/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/learn-typescript/assets/app-62a835c4.js" defer></script>
+  </body>
+</html>
